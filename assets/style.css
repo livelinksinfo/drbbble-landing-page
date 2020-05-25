@@ -29,7 +29,7 @@ h1 {
 }
 
 .container {
-    width: 90%;
+    width: 100%;
     height: auto;
     margin: 0 auto 25px auto;
     top: 30px;
@@ -66,7 +66,8 @@ li.nav:hover {
 .section-3 {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 90%;
+    margin: auto;
 }
 
 hr.style {
@@ -95,10 +96,14 @@ hr.style:before {
 }
 
 .section-3 {
+    padding-top: 100px;
+    width: 100%;
     clip-path: inset(15px 12px -70px 10px);
+    background-color: rgba(223, 227, 228, 0.3);
 }
 
 .section-2 {
+    /* margin-top: 100px; */
     margin-bottom: 55px;
 }
 
@@ -168,22 +173,50 @@ hr.style:before {
     margin-bottom: 30px;
 }
 
-.layout {
-    width: 45%;
+.layout-1,
+.layout-2 {
+    width: 40%;
+    height: auto;
     margin: 20px auto;
     padding: 12px 25px;
     box-shadow: 0 0 15px 1px rgba(145, 149, 151, 0.3);
+    background-color: #ffffff;
+}
+
+.layout-1 {
+    height: 150px;
+}
+
+.message {
+    width: 250px;
+    margin: 12px auto;
+    padding: 5px 25px;
+    background-color: #ffffff;
+    box-shadow: 0 0 12px;
+    text-align: start;
+    position: relative;
+    top: -200px;
+    right: -45px;
+}
+
+.message ul li,
+.message ul li p {
+    margin: 5px 0;
+}
+
+.message button {
+    margin: 20px auto;
 }
 
 .indent {
-    margin-top: 20px;
-    margin-left: 33px;
+    margin: 20px 0px 20px 33px;
+    /* margin-left: 33px; */
     line-height: 1.6em;
     font-size: 1.2em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.layout img,
+.layout-1 img,
 .profile img {
     width: 20%;
     border-radius: 50%;
@@ -224,9 +257,10 @@ li+h2 {
     .class-1,
     .class-2,
     .body,
-    .layout {
-        width: 95%;
-        margin: 0 auto;
+    .layout-1,
+    .layout-2 {
+        width: 80%;
+        margin: 10px auto;
     }
     /* Menu */
 }
