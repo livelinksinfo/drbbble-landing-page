@@ -11,11 +11,13 @@ body {
 }
 
 .navbar {
+    display: flex;
     height: 50px;
     background-color: azure;
     position: relative;
     width: 100%;
     padding: 25px 0 15px 60px;
+    flex-flow: row-reverse;
 }
 
 .nav {
@@ -139,7 +141,7 @@ hr.style:before {
 }
 
 .btn:hover {
-    background-color: rgb(157, 172, 127);
+    background-color: rgb(217, 224, 201);
     color: blue;
 }
 
@@ -188,7 +190,7 @@ hr.style:before {
 }
 
 .message {
-    width: 250px;
+    max-width: 250px;
     margin: 12px auto;
     padding: 5px 25px;
     background-color: #ffffff;
