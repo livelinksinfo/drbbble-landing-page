@@ -51,16 +51,20 @@ li.nav a {
 
 li.nav {
     display: inline;
-    padding: 0 25px;
+    padding: 0 10px;
     list-style: none;
 }
 
 li.nav:hover {
-    background-color: rgb(107, 94, 94);
     color: #ffffff;
+    background-color: rgb(197, 195, 195);
     /* text-transform: uppercase; */
     padding-top: 12px;
     padding-bottom: 4px;
+}
+
+li.nav a:hover {
+    color: #ffffff;
 }
 
 .section-1,
@@ -263,6 +267,14 @@ li+h2 {
     .layout-2 {
         width: 80%;
         margin: 10px auto;
+    }
+    .layout-2 {
+        margin-top: 80px;
+    }
+    .message {
+        max-width: 50%;
+        height: 300px;
+        overflow-y: scroll;
     }
     /* Menu */
 }
