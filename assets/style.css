@@ -291,5 +291,11 @@ li+h2 {
         height: 300px;
         overflow-y: scroll;
     }
+    .logo-header {
+        width: 100%;
+    }
+    .navbar {
+        display: none;
+    }
     /* Menu */
 }
