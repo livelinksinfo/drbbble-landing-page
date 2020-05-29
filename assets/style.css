@@ -178,7 +178,7 @@ hr.style:before {
 .class-2 {
     width: 60%;
     background-image: url("../svg/undraw_dream_world_cin1.svg");
-    background-position: 40px;
+    background-position-y: 40px;
     background-size: contain;
     background-repeat: no-repeat;
     height: 540px;
@@ -291,6 +291,9 @@ li+h2 {
     .layout-2 {
         width: 80%;
         margin: 10px auto;
+    }
+    .class-2 {
+        height: 200px;
     }
     .layout-2 {
         margin-top: 80px;
